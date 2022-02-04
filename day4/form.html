@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<link rel="stylesheet" href="day4.css">
+
+<body>
+    <div class="block">
+        <div class="heading">
+            <h1 style="color:rgb(191, 7, 247)">Front-End Coding Community</h1>
+            <h2 style="color:rgb(151, 144, 39)">Sign up. and Join your favourite course !!!</h2>
+            <hr>
+            <p style="color: red;">* required</p>
+        </div>
+
+        <div class="formblock">
+            <form action="no.php">
+                <label>Name : <span style="color: red;">*</span></label><br><br>
+                <input id="main" type="text" placeholder="Enter your Name" required>
+                <hr>
+                <label>Email : <span style="color: red;">*</span></label><br><br>
+                <input id="main" type="email" placeholder="Enter your Email" required>
+                <hr>
+                <label>Contact No : <span style="color: red;">*</span></label><br><br>
+                <input id="main" type="tel" placeholder="Enter your Conatct No." required>
+                <hr>
+                <label for="interest">What you want to learn ? <span style="color: red;">*</span></label><br><br>
+                <select id="main" name="interest" id="interest" required>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">Javascript</option>
+                </select>
+                <hr>
+                <label>Select suitable-Date & Time which you want to start the course : <span
+                        style="color: red;">*</span></label> <br><br>
+                <input id="main" type="datetime-local" required>
+                <hr>
+                <br>
+                <input id="main1" type="submit"><br><br>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

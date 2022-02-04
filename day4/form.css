@@ -1,0 +1,40 @@
+.block{
+    border: 5px solid rgb(241, 119, 5);
+    margin: 20px 350px;
+    background-color: rgb(226, 250, 250);
+}
+
+.heading{
+    border: 2px solid yellowgreen;
+    background-color: rgb(252, 252, 232);
+    margin: 15px 15px;
+    padding:5px 5px;
+}
+
+.formblock{
+    border: 2px solid violet;
+    background-color: rgb(252, 252, 232);;
+    margin: 15px 15px;
+    padding: 5px 5px;
+    font-size: large;
+}
+#main{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    text-align: left;
+}
+#main1{
+    width: 150px;
+    border: 1px solid purple;
+    border-radius: 15px;
+    font-size: medium;
+    margin-left: 40pxs;
+}
+
+#main1:hover{
+    background-color: rgb(223, 204, 223);
+}
